@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>RegistrationForm</title>
+
+</head>
+
+<body>
+
+
+    <h2>RegistrationForm</h2>
+    <span>
+
+      <div id="poem-container">
+		<div id="login">
+			<p id="head">Sign-up</p>
+			<form action="./RegistrationForm" method="POST">
+				<p>Enter UserName <input type="text" name="un" id="inputun" autocomplete="off"  required minlength="3" maxlength="20" pattern="[A-Za-z0-9_-]+" title="Username should be 3-20 characters and contain only letters, numbers, underscores, or hyphens."></p>
+				<p>Enter Password <input type="Password" name="pwd" id="inputpwd" autocomplete="off" required minlength="4" maxlength="20" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{4,20}" title="Password should be 4-20 characters and include at least one uppercase letter, one lowercase letter, one number, and one special character."></p>
+				<p>Enter MobileNo <input type="text" name="mn" id="inputpwd" autocomplete="off" required pattern="[0-9]{10}" title="Mobile number should be 10 digits."></p>
+				<p>Enter Email    <input type="email" name="em"  autocomplete="off"   id="inputemail"  required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="Please enter a valid email address."></p>
+				<button type="submit" name="button" id="sbtn"  >Submit</button>
+        <p id="regform">Already have an account ? <a onclick="loadPage('LoginForm.html')"> Sign in</a></p>
+			</form>
+		</div>
+     
+  
+    </div>
+  </span>
+    <span id="btn">
+        <button id="btn-prev" onclick="loadPage('LoginForm.html')">Previous</button>
+        <button id="btn-next"  style="visibility: hidden;">Next</button>
+    </span>
+   
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

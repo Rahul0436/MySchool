@@ -1,0 +1,866 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#header{
+    height: 190px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    background-color:rgb(17, 17, 31);
+    box-shadow: 5px 10px 10px gray;
+}
+#logo{
+    height: 160px;
+    width: 160px;
+    border: 2px solid #3f51b5;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+
+}
+#logo1{
+    height: 160px;
+    width: 160px;
+    border: 2px solid #3f51b5;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+
+}
+#home{
+    height: 70%;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+#school-animate{
+   height: 100%;
+   width: 100%;
+   
+
+}
+#student2{
+    height: 140px;
+    width: 400px;
+    position: relative;
+    bottom: 130px;
+    left: 200px;
+}
+#student1{
+    height: 500px;
+    width: 100px;
+    position: relative;
+    bottom: 530px;
+    left: 400px;
+}
+#student3{
+    height: 100px;
+    width: 250px;
+    position: relative;
+    bottom: 1200px;
+    left: 200px;
+}
+#studentgroup{
+    height: 300px;
+    width: 200px;
+    position: relative;
+    bottom: 1000px;
+    left: 100px;
+   
+}
+
+
+#school{
+    font-size: 50px;
+    padding-top: 15px;
+    color: white;
+}
+#logo span{
+    font-size: 25px;
+    font-weight: 600;
+    color:#3f51b5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    margin-top: 10px;
+   
+}
+#logo1 span{
+    font-size: 25px;
+    font-weight: 600;
+    color:#3f51b5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    margin-top: 10px;
+   
+}
+#logo span p{
+    color: white;
+}
+#logo1 span p{
+    color: white;
+}
+
+#list-div{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+     
+
+}
+#list-div ul{
+        height: 100px;
+         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        column-gap: 50px;
+       
+}
+#list-div ul li a:hover{
+    height: 70px;
+    width: 120px;
+    border: 2px solid #3f51b5;
+    border-radius: 10px;
+}
+
+#list-div ul li a {
+    height: 70px;
+    width: 120px;   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  
+}
+#list-div ul li a p{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+
+}
+#list-div ul li{
+    list-style-type: none;
+}
+#list-div ul li a{
+    color: black;
+    text-decoration: none;
+    
+}
+#list-div ul li a i{
+    font-size: 20px;
+    color: white;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    margin-top: 190px;
+}
+#list{
+    height: 880px;
+    width: 20%;
+    border: 2px solid black;
+   
+    text-align: left;
+}
+#content{
+    height: 880px;
+    width: 80%;
+    border: 2px solid rgb(17, 17, 31);
+    
+    
+}
+#content h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#content ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+#content ul li{
+    height: 50px;
+    width: 60px;
+    border: 2px solid  black;
+    list-style-type: none;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#yz{
+    height: 58px;
+    width: 235px;
+   text-align: left;
+    column-gap: 20px;
+}
+#yz li{
+    margin-left: 25px;
+    
+}
+#content h3{
+    padding-left: 20px;
+    font-weight: 800;
+    
+}
+
+#list ul {
+    padding: 20px;
+   
+}
+#list ul p{
+    font-size: 25px; 
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    text-align: center;
+}
+#list ul li{
+   
+   font-size: 15px;
+   font-family: sans-serif;
+   font-weight: 600;
+   list-style-type: none;
+   padding: 25px;
+   margin-top: 5px;
+
+
+}
+#list ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    cursor: pointer;
+}
+#btn{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;    
+   
+}
+#btn-next{
+    height: 35px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:rgb(17, 17, 31);
+    color: white;
+
+  
+}
+#btn-prev{
+    height: 35px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:rgb(17, 17, 31);
+    color: white;
+
+   
+}
+#btn-in{
+    height: 30px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#btn-next-in{
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+#left-arrow{
+    font-size: 40px;
+}
+#btn-prev-in{
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+#container-one{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+  
+}
+#container-one span{
+    height: 100px;
+    width: 125px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#container-one p{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+ #container-one cite{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 500;
+ }
+
+#container-two p{
+    font-size: 16px;
+    font-weight: 700;
+}
+#container-two p cite{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 500;
+}
+#container-one img{
+    height: 80px;
+    width: 80px;
+   
+}
+#container-two span{
+    height: 100px;
+    width: 125px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#container-two{
+    margin-left: 30px; 
+    display: flex;
+
+}
+#container-two img{
+    height: 80px;
+    width: 80px;
+    
+}
+#poem{
+    height: auto;
+    width: 800px;
+    border: 2px solid black;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+#poem div{
+    height: auto;
+    width: 350px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+}
+
+#poem-container{
+    height: 600px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 50px;
+   
+}
+#poem-container-one{
+    height: 600px;
+    width: 500px;
+    text-align: center;
+    padding-top: 10px;
+}
+#poem-container-one h3{
+    padding: 10px;
+    font-size: 25px;
+    text-decoration:underline;
+}
+#poem-container-one p{
+    line-height: 2;
+    font-size: 22px;
+}
+
+ #colors-container dt{
+    height: 60px;
+    width: 120px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    font-size: 25px;
+ }
+ #colors-container dd{
+    height: 60px;
+    width: 500px;
+    border: 2px solid black;
+ }
+
+ #colors-container span{
+    height: 80%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+ }
+ #red{
+    background-color: red;
+ }
+ #orange{
+    background-color: orange;
+ }
+ #yellow{
+    background-color: yellow;
+ }
+ #green{
+    background-color: green;
+ }
+ #blue{
+    background-color: blue;
+ }
+ #indigo{
+    background-color: indigo;
+ }
+ #violet{
+    background-color: violet;
+ }
+ #div1{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ #div1 dd{
+    height: 60px;
+    width: 47%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+ }
+ #div1 dd span{
+    padding-right: 10px;
+ }
+ #parts{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+ #parts img{
+    height: 70%;
+    width: 70%;
+ }
+
+ #login1{
+    height: 300px;
+    width: 430px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+#fpwd{
+    color: #3f51b5;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+#login{
+    height: 400px;
+    width: 430px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+#PasswordUpdate{
+    height: 350px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+#PasswordUpdate form{
+    margin-top: 30px;
+}
+
+#PasswordUpdate #em{
+    height: 30px;
+    width: 200px;
+    margin-left: 105px;
+}
+#PasswordUpdate #pwd{
+    height: 30px;
+    width: 200px;
+    margin-left: 70px;
+}
+#PasswordUpdate #cfmpwd{
+    height: 30px;
+    width: 200px;
+}
+#PasswordUpdate #vfbtn{
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(17, 17, 31);
+    color: white;
+}
+#PasswordUpdate #fbtn{
+    height: 30px;
+    width: 120px;
+   
+    border-radius: 10px;
+    background-color: rgb(17, 17, 31);
+    color: white;
+    margin-top: 30px;
+}
+#error{
+    color: red;
+    text-align: center;
+}
+
+#head{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+#btn-cover{
+    text-align: center;
+
+
+}
+#sbtn{
+    height: 30px;
+    width: 120px;
+    margin-top: 20px;
+    background-color: rgb(17, 17, 31);
+    color: white;
+    border-radius: 10px;
+}
+#inputun{
+    height: 30px;
+    width: 200px;
+    margin-left: 20px;
+
+}
+#inputpwd{
+    height: 30px;
+    width: 200px;
+    margin-left: 27px;
+
+}
+#inputemail{
+    height: 30px;
+    width: 200px;
+    margin-left: 55px;
+}
+#regform{
+    font-weight: 700;
+    
+}
+#regform a{
+    color: #3f51b5;
+    cursor: pointer;
+    
+}
+form p{
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#details{
+    height: 670px;
+    width: 100%;
+    padding: 10px;
+}
+#details span{
+    font-size: 20px;
+    font-weight: 600;
+}
+#details p{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+#details dl{
+    margin: 5px;
+}
+#details dl dd{
+   font-size: 16px;
+    padding: 10px;
+    font-weight: 600;
+    
+}
+#details dl li{
+    list-style-type: none;
+}
+#details dl strong {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+    
+}
+#details dl strong a{
+    text-decoration: none;
+    color: #3f51b5;
+}
+#result{
+    height: 650px;
+     width: 1350px;
+      border: 2px solid black;
+       text-align: center;
+        padding: 20px; 
+        display:flex;
+        align-items:center;
+        justify-content:center;
+         flex-direction:column;
+          font-family: sans-serif;
+           background-color:rgb(17, 17, 31);
+
+}
+#user{
+    text-align:center; 
+    color:white;
+    padding-top:15px;
+}
+#user span{
+    color:#3f51b5;
+}
+@media only screen and (max-width :1294px){
+
+    #result{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+  
+  
+    #student1{
+      
+
+     height: 500px;
+     width: 130px;
+        position: relative;
+        left: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #student2{
+
+       
+        height: 100px;
+        width: 200px;
+        position: relative;
+        left: 100px;
+        bottom: 240px;
+       
+    }
+    #student3{
+       
+        position:relative;
+        height: 80px;
+        width: 150px;
+        bottom: 1050px;
+        left: 250px;
+    }
+    
+  #studentgroup{
+    height: 200px;
+    width: 100px;
+    position: relative;
+    bottom: 940px;
+    left: 80px;
+  }
+    #list{
+        text-align: left;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    #logo{
+        height: 130px;
+        width: 130px;
+       
+    }
+    #logo1{
+        height: 130px;
+        width: 130px;
+       text-align: center;
+       
+    }
+    #logo span{
+        font-size: 17px;
+
+    }
+    #logo1 span{
+        font-size: 17px;
+
+    }
+    #list-div ul li a {
+        height: 55px;
+        width: 100px;   
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+      
+    }
+    #list-div ul li a:hover{
+        height: 55px;
+        width: 100px;
+        border: 2px solid #3f51b5;
+        border-radius: 10px;
+    }
+    #copyright{
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+  #list ul p{
+    font-size: 20px;
+  }
+  #list ul li a {
+    font-size: 10px;
+    font-weight: 800;
+  }
+  #list-div ul{
+    column-gap: 10px;
+  }
+  #list-div ul li a p{
+    font-size: 20px;
+  }
+  #details dl p{
+    font-size: 15px;
+    font-weight: 600;
+  }
+  #details dl dd{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
+  }
+}
+
+
+
+
+#hr{
+    height: 15px;
+    width: 2px;
+    background-color: whitesmoke;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+#footer{
+    height: 250px;
+    width: 100%;   
+    background-color:rgb(17, 17, 31);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#address{
+    height: 150px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+#address ul p{
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#address ul li{
+    list-style-type: none;
+    padding: 10px;
+
+}
+#address ul li a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+#address ul li a i{
+    padding-left: 10px;
+    color: #3f51b5;
+}
+#address ul li a:hover{
+    color: #3f51b5;
+}
+#copyright{
+    height: 30px;
+    width: 100%;
+    border-top: 1px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(17, 17, 31);
+    color: white;
+}
+#copyright i{
+    padding: 7px;
+}

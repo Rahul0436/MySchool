@@ -1,0 +1,34 @@
+<web-app>
+	<servlet>
+		<servlet-name>RegistrationForm</servlet-name>
+		<servlet-class>com.hk.servlets.RegistrationForm</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrationForm</servlet-name>
+		<url-pattern>/RegistrationForm</url-pattern>
+	</servlet-mapping>
+
+	<!-- Login Servlet -->
+	<servlet> 
+		 <servlet-name>LoginForm</servlet-name> 
+		 <servlet-class>com.hk.servlets.LoginForm</servlet-class> 
+	</servlet> 
+	<servlet-mapping>
+	  	 <servlet-name>LoginForm</servlet-name> 
+	 	 <url-pattern>/LoginForm</url-pattern> 
+	</servlet-mapping>
+
+	
+	<!-- PasswordUpdate  -->
+    	<servlet>
+       		 <servlet-name>PasswordUpdate</servlet-name>
+       		 <servlet-class>com.hk.servlets.PasswordUpdate</servlet-class>
+   	</servlet>
+
+    	<servlet-mapping>
+       		 <servlet-name>PasswordUpdate</servlet-name>
+        	 <url-pattern>/PasswordUpdate</url-pattern>
+    	</servlet-mapping>
+
+
+</web-app>
